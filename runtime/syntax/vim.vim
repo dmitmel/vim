@@ -2473,6 +2473,7 @@ endif
 " Synchronize (speed) {{{2
 "============
 
+syn sync clear
 exe "syn sync minlines=" .. get(g:, "vimsyn_minlines", 100)
 exe "syn sync maxlines=" .. get(g:, "vimsyn_maxlines", 200)
 
